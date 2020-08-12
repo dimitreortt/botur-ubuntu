@@ -1,0 +1,8 @@
+import os; p = "C:/Users/dimio/OneDrive/Documentos/Projetos/Ad Hoc/Bot/Bot-Urban-Rivals"; fullpath = os.path.normpath(p); os.chdir(fullpath); os.getcwd(); import regrab; getCoords = regrab.grab.mouse.getCoords; rgg = regrab.grab; rr = regrab.reloadModules; ss = rgg.startGame.startGame; rp = regrab.play; play = rp.play; pm = rp.playMatch;
+
+getCoords = regrab.grab.mouse.getCoords; 
+rgg = regrab.grab;
+rr = regrab.reloadModules()
+ss = rgg.startGame.startGame
+
+
